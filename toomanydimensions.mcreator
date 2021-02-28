@@ -1,0 +1,40 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "DimensionsInscriberGUI",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "dimensions_inscriber_gui"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "workspaceSettings": {
+    "modid": "toomanydimensions",
+    "modName": "TooManyDimensions",
+    "version": "1.0.0",
+    "author": "tankp, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "me.tankpillow.toomanydimensions",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
