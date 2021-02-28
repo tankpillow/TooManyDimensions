@@ -58,13 +58,13 @@ public class GuiDimensionsInscriberGUI extends ElementsToomanydimensionsMod.ModE
 			this.x = x;
 			this.y = y;
 			this.z = z;
-			this.internal = new InventoryBasic("", true, 2);
+			this.internal = new InventoryBasic("", true, 3);
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 68, 30) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 68, 37) {
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 103, 30) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 104, 37) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -273,7 +273,7 @@ public class GuiDimensionsInscriberGUI extends ElementsToomanydimensionsMod.ModE
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Dimensions Inscriber", 5, 6, -12829636);
+			this.fontRenderer.drawString("Dimension Inscriber", 4, 5, -12829636);
 		}
 
 		@Override
@@ -289,7 +289,6 @@ public class GuiDimensionsInscriberGUI extends ElementsToomanydimensionsMod.ModE
 			this.guiTop = (this.height - 166) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 61, this.guiTop + 52, 65, 20, "Inscribe"));
 		}
 
 		@Override

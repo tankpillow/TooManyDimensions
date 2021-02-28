@@ -11,19 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "label",
-        "data": {
-          "text": "Dimensions Inscriber",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Dimensions Inscriber",
-          "x": 124,
-          "y": 43
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -34,29 +21,31 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 186,
-          "y": 66
+          "y": 73
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 1,
-          "disableStackInteraction": true,
+          "id": 2,
+          "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 221,
-          "y": 66
+          "name": "Slot #2",
+          "x": 222,
+          "y": 73
         }
       },
       {
-        "type": "button",
+        "type": "label",
         "data": {
-          "text": "Inscribe",
-          "width": 65,
-          "height": 20,
-          "name": "Inscribe",
-          "x": 180,
-          "y": 89
+          "text": "Dimension Inscriber",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dimension Inscriber",
+          "x": 123,
+          "y": 42
         }
       }
     ]

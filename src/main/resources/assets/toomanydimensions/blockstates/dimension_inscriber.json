@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "normal": {
+      "model": "toomanydimensions:dimension_inscriber"
+    }
+  }
+}

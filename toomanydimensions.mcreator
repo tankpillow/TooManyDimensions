@@ -13,12 +13,85 @@
         "0": 1
       },
       "registry_name": "dimensions_inscriber_gui"
+    },
+    {
+      "name": "DimensionInscriberOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimension_inscriber_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DimensionInscriber",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimension_inscriber"
+    },
+    {
+      "name": "UnInscribedGem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "un_inscribed_gem"
+    },
+    {
+      "name": "InscribedGem",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "inscribed_gem"
+    },
+    {
+      "name": "IronOreBiome",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_ore_biome"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "tile.dimension_inscriber.name": "Dimension Inscriber",
+      "item.un_inscribed_gem.name": "Uninscribed Gem",
+      "item.inscribed_gem.name": "Inscribed Gem"
+    }
   },
   "workspaceSettings": {
     "modid": "toomanydimensions",

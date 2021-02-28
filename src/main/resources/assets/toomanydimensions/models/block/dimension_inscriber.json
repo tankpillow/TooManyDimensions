@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "toomanydimensions:blocks/dimensioninscriber_bottom",
+    "up": "toomanydimensions:blocks/dimensioninscriber_top",
+    "north": "toomanydimensions:blocks/dimensioninscriber_front",
+    "east": "toomanydimensions:blocks/dimensioninscriber_side",
+    "south": "toomanydimensions:blocks/dimensioninscriber_side",
+    "west": "toomanydimensions:blocks/dimensioninscriber_side",
+    "particle": "toomanydimensions:blocks/dimensioninscriber_bottom"
+  }
+}
